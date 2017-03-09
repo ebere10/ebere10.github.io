@@ -1,3 +1,31 @@
 body {
-  background-color: #facade;
+  /*background-color: #facade;*/
+}
+
+.bg-1 {
+background-color: #1abc9c;
+color: #ffffff;
+height: 710px;
+}
+
+.bg-2 {
+background-color: #1fff1f;
+color: #ffffff;
+height: 710px;
+}
+
+.bg-3 {
+background-color: #9abc9c;
+color: #ffffff;
+height: 710px;
+}
+
+.bg-4 {
+background-color: #5efe5e;
+color: #ffffff;
+height: 710px;
+}
+
+.tagline {
+  margin-top: 300px;
 }
