@@ -5,7 +5,7 @@ body {
 .bg-1 {
 background-color: #1abc9c;
 color: #ffffff;
-height: 710px;
+height: 720px;
 }
 
 .bg-2 {
@@ -28,6 +28,10 @@ height: 570px;
 
 .tagline {
   margin-top: 300px;
+}
+
+.intro  {
+  font-size: 80px;
 }
 
 footer {
