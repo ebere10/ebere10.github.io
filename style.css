@@ -52,6 +52,15 @@ border-radius: 50%;
 border: solid 10px white;
 }
 
+.bg4 {
+  margin-top: 150px;
+  font-size: 40px;
+}
+
+.bg4text {
+  font-size: 25px;
+}
+
 footer {
   height: 100px;
   text-align: center;
