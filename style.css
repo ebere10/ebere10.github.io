@@ -220,3 +220,8 @@ nav.navbar.navbar-default.navbar-fixed-top {
 .navbar li a, .navbar .navbar-brand {
     color: #fff !important;
 }
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #ff4780 !important;
+    background-color: #fff !important;
+}
