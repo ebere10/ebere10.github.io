@@ -209,11 +209,14 @@ footer {
 99%   { color: #8185ff; }
 100%  { color: #ff4780; }*/
 
-.header .navbar-default {
-  background: none;
-}
+
 
 nav.navbar.navbar-default.navbar-fixed-top {
   background: none;
   border: none;
+}
+
+
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
 }
