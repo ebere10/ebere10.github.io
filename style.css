@@ -27,11 +27,14 @@ height: 570px;
 }
 
 .tagline {
-  margin-top: 300px;
+  /*margin-top: 300px;*/
+  margin: 300px 0 0 0;
+  font-size: 100px;
 }
 
 .intro {
-  font-size: 80px;
+  font-size: 100px;
+  margin: 0;
 }
 
 .bg2text {
@@ -65,4 +68,76 @@ footer {
   height: 100px;
   text-align: center;
   padding: 40px 0;
+}
+
+/*background 1 flashing colours*/
+.flash {
+  -moz-animation: flash 12s infinite;
+  	/*-moz-animation-iteration-count: 1;*/
+  	-webkit-animation: flash 12s infinite;
+  	/*-webkit-animation-iteration-count: 1;*/
+  	-ms-animation: flash 12s infinite;
+  	/*-ms-animation-iteration-count: 1;*/
+  	animation: flash 12s infinite;
+  	/*animation-iteration-count: 1;*/
+}
+
+@-webkit-keyframes flash {
+0%    { background-color: #ff4780; }
+12%   { background-color: #ff4780; }
+13%   { background-color: #ff7b33; }
+24%   { background-color: #ff7b33; }
+25%   { background-color: #ffbe2f; }
+37%   { background-color: #ffbe2f; }
+38%   { background-color: #23a267; }
+49%   { background-color: #23a267; }
+50%   { background-color: #ff98e3; }
+62%   { background-color: #ff98e3; }
+63%   { background-color: #ff736b; }
+74%   { background-color: #ff736b; }
+75%   { background-color: #ffb846; }
+87%   { background-color: #ffb846; }
+88%   { background-color: #8185ff; }
+99%   { background-color: #8185ff; }
+100%  { background-color: #ff4780; }
+}
+
+@-moz-keyframes flash {
+0%    { background-color: #ff4780; }
+12%   { background-color: #ff4780; }
+13%   { background-color: #ff7b33; }
+24%   { background-color: #ff7b33; }
+25%   { background-color: #ffbe2f; }
+37%   { background-color: #ffbe2f; }
+38%   { background-color: #23a267; }
+49%   { background-color: #23a267; }
+50%   { background-color: #ff98e3; }
+62%   { background-color: #ff98e3; }
+63%   { background-color: #ff736b; }
+74%   { background-color: #ff736b; }
+75%   { background-color: #ffb846; }
+87%   { background-color: #ffb846; }
+88%   { background-color: #8185ff; }
+99%   { background-color: #8185ff; }
+100%  { background-color: #ff4780; }
+}
+
+@-ms-keyframes flash {
+0%    { background-color: #ff4780; }
+12%   { background-color: #ff4780; }
+13%   { background-color: #ff7b33; }
+24%   { background-color: #ff7b33; }
+25%   { background-color: #ffbe2f; }
+37%   { background-color: #ffbe2f; }
+38%   { background-color: #23a267; }
+49%   { background-color: #23a267; }
+50%   { background-color: #ff98e3; }
+62%   { background-color: #ff98e3; }
+63%   { background-color: #ff736b; }
+74%   { background-color: #ff736b; }
+75%   { background-color: #ffb846; }
+87%   { background-color: #ffb846; }
+88%   { background-color: #8185ff; }
+99%   { background-color: #8185ff; }
+100%  { background-color: #ff4780; }
 }
