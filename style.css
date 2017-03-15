@@ -20,7 +20,8 @@ height: 100vh;
 .bg-2 {
 background-color: #ff4780;
 color: #ffffff;
-height: 710px;
+/*height: 710px;*/
+height: 100vh;
 }
 
 /*.bg-3 {
@@ -224,8 +225,9 @@ footer {
 
 
 nav.navbar.navbar-default.navbar-fixed-top {
-  background: none;
+  background: #fff;
   border: none;
+  box-shadow: 0px 0px 7px 1px rgb(161, 161, 161);
   /*padding-top: 30px;*/
 }
 
@@ -246,15 +248,15 @@ nav.navbar.navbar-default.navbar-fixed-top {
 	text-shadow: 0px 0px 1px #000;
 }
 .flash h1.frame span {
-	animation: blurFadeIn 3s ease-in 1s backwards;
+	animation: blurFadeIn 3s ease-in 0.5s backwards;
 	color: transparent;
 	text-shadow: 0px 0px 1px #000;
 }
 .flash h1.frame span:nth-child(2) {
-	animation-delay: 3s;
+	animation-delay: 1.5s;
 }
 .flash h1.frame span:nth-child(3) {
-	animation-delay: 5s;
+	animation-delay: 2s;
 }
 
 @keyframes blurFadeIn{
