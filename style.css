@@ -1,5 +1,5 @@
 body {
-  /*background-color: #facade;*/
+
 }
 
 /*.bg-1 {
@@ -9,33 +9,42 @@ height: 720px;
 }*/
 .bg-1 {
 background-image: url("images/linedpaper.png");
-background-color: #1abc9c;
+/*background-color: #1abc9c;*/
 color: #ff4780;
-height: 720px;
+/*height: 720px;*/
+width: 100%;
+height: 100vh;
 }
 
 
 .bg-2 {
-background-color: #1fff1f;
+background-color: #ff4780;
 color: #ffffff;
 height: 710px;
 }
 
-.bg-3 {
+/*.bg-3 {
 background-color: #9abc9c;
+color: #ffffff;
+height: 1000px;
+}*/
+.bg-3 {
+background-image: url("images/grid.png");
+background-size: 20px;
+background-repeat: repeat;
 color: #ffffff;
 height: 1000px;
 }
 
 .bg-4 {
-background-color: #5efe5e;
+background-color: #ff736b;
 color: #ffffff;
 height: 570px;
 }
 
 .tagline {
-  /*margin-top: 300px;*/
-  margin: 300px 0 0 0;
+  /*margin: 300px 0 0 0;*/
+  margin: 50vh 0 0 0;
   font-size: 100px;
 }
 
@@ -228,4 +237,40 @@ nav.navbar.navbar-default.navbar-fixed-top {
 .navbar-nav li a:hover, .navbar-nav li.active a {
     color: #ff4780 !important;
     background-color: #fff !important;
+}
+
+/****** div 1. text effect *******/
+.flash h1.frame {
+	animation: none;
+	color: transparent;
+	text-shadow: 0px 0px 1px #000;
+}
+.flash h1.frame span {
+	animation: blurFadeIn 3s ease-in 1s backwards;
+	color: transparent;
+	text-shadow: 0px 0px 1px #000;
+}
+.flash h1.frame span:nth-child(2) {
+	animation-delay: 3s;
+}
+.flash h1.frame span:nth-child(3) {
+	animation-delay: 5s;
+}
+
+@keyframes blurFadeIn{
+	0%{
+		opacity: 0;
+		text-shadow: 0px 0px 40px #000;
+		transform: scale(1.3);
+	}
+	50%{
+		opacity: 0.5;
+		text-shadow: 0px 0px 10px #000;
+		transform: scale(1.1);
+	}
+	100%{
+		opacity: 1;
+		text-shadow: 0px 0px 1px #000;
+		transform: scale(1);
+	}
 }
