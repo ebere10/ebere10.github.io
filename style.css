@@ -276,3 +276,32 @@ nav.navbar.navbar-default.navbar-fixed-top {
 		transform: scale(1);
 	}
 }
+
+.polaroid {
+  width: 316px;
+  height: 353px;
+  /*background:white;*/
+border-top:8px solid #f7f6f5;
+border-right:8px solid #f7f6f5;
+border-left:8px solid #f7f6f5;
+border-bottom:45px solid #f7f6f5;
+  -webkit-animation-name: test;
+    -webkit-animation-duration: 2s;
+    animation-name: test;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes test {
+    0%   {background-image: url("images/me.jpg");}
+    25%  {background-image: url("images/me2.jpg");}
+    50%  {background-image: url("images/me.jpg");}
+    100% {background-image: url("images/me2.jpg");}
+}
+
+@keyframes test {
+    0%   {background-image: url("images/me.jpg");}
+    25%  {background-image: url("images/me2.jpg");}
+    50%  {background-image: url("images/me.jpg");}
+    100% {background-image: url("images/me2.jpg");}
+}
