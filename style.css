@@ -294,14 +294,14 @@ border-bottom:45px solid #f7f6f5;
 
 @-webkit-keyframes test {
     0%   {background-image: url("images/me.jpg");}
-    25%  {background-image: url("images/me2.jpg");}
-    50%  {background-image: url("images/me.jpg");}
+    33%  {background-image: url("images/me2.jpg");}
+    66%  {background-image: url("images/me.jpg");}
     100% {background-image: url("images/me2.jpg");}
 }
 
 @keyframes test {
     0%   {background-image: url("images/me.jpg");}
-    25%  {background-image: url("images/me2.jpg");}
-    50%  {background-image: url("images/me.jpg");}
+    33%  {background-image: url("images/me2.jpg");}
+    66%  {background-image: url("images/me.jpg");}
     100% {background-image: url("images/me2.jpg");}
 }
