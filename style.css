@@ -3,12 +3,13 @@ body {
 }
 
 /*.bg-1 {
-background-color: #1abc9c;
+background-color: #5E2BFF;
 color: #ffffff;
 height: 720px;
 }*/
 .bg-1 {
-background-image: url("images/linedpaper.png");
+  background-color: #F0F66E;
+/*background-image: url("images/linedpaper.png");*/
 color: #ff4780;
 width: 100%;
 height: 100vh;
@@ -27,7 +28,8 @@ height: 100vh;
   /*padding: 2em 5em;*/
   /*font: normal 40px/50px Montserrat, sans-serif;*/
   font: normal 100px Montserrat, sans-serif;
-  color: #e74c3c;
+  color: #272727;
+  /*color: #e74c3c;*/
 }
 .text p {
   /*height: 50px;*/
@@ -49,7 +51,8 @@ height: 100vh;
 }
 .text .inner-text {
   display: inline-block;
-  color: #e74c3c;
+  color: #272727;
+  /*color: #e74c3c;*/
   position: relative;
   white-space: nowrap;
   top: 0;
@@ -430,9 +433,9 @@ footer {
 
 
 nav.navbar.navbar-default.navbar-fixed-top {
-  background: #fff;
+  background: #F0F66E;
   border: none;
-  box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.5);
+  /*box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.5);*/
   /*padding-top: 30px;*/
 }
 
@@ -442,12 +445,13 @@ nav.navbar.navbar-default.navbar-fixed-top {
 }
 
 .navbar-nav li a:hover, .navbar-nav li.active a {
-    color: #ff4780 !important;
-    background-color: #fff !important;
+    color: #f0f66e !important;
+    background-color: #272727 !important;
+    font-weight: bold;
 }
 
 /****** div 1. text effect *******/
-.flash h1.frame {
+/*.flash h1.frame {
 	animation: none;
 	color: transparent;
 	text-shadow: 0px 0px 1px #000;
@@ -480,7 +484,7 @@ nav.navbar.navbar-default.navbar-fixed-top {
 		text-shadow: 0px 0px 1px #000;
 		transform: scale(1);
 	}
-}
+}*/
 
 .polaroid {
   width: 316px;
