@@ -55,7 +55,7 @@ height: 100vh;
 
 
 /*animation*/
--webkit-animation:move 20s;
+-webkit-animation:move 10s;
    -moz-animation:move 10s;
     -ms-animation:move 10s;
      -o-animation:move 10s;
