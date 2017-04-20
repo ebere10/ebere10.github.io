@@ -243,7 +243,8 @@ height: 1000px;
 .bg-4 {
 background-color: #ff736b;
 color: #ffffff;
-height: 570px;
+/*height: 570px;*/
+height: 85vh;
 }
 
 .tagline {
@@ -291,7 +292,7 @@ border: solid 10px white;
 }
 
 footer {
-  height: 100px;
+  height: 15vh;
   text-align: center;
   padding: 40px 0;
 }
