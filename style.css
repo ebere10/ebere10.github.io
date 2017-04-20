@@ -294,6 +294,11 @@ nav.navbar.navbar-default.navbar-fixed-top {
   font-weight: bold;
 }
 
+.movepic {
+/*left: 50px;*/
+/*text-align: center;*/
+}
+
 .polaroid {
   width: 316px;
   height: 353px;
