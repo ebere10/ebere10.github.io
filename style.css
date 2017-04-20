@@ -260,7 +260,7 @@ height: 85vh;
 
 .bg2text {
   margin: 40px 0;
-  font-size: 100px;
+  font-size: 80px;
   font-weight: bold;
 }
 
@@ -297,142 +297,6 @@ footer {
   padding: 40px 0;
 }
 
-/************background 1 flashing colours************/
-/*.flash {
-  -moz-animation: flash 12s infinite;
-  	-webkit-animation: flash 12s infinite;
-  	-ms-animation: flash 12s infinite;
-  	animation: flash 12s infinite;
-}*/
-
-/*@-webkit-keyframes flash {
-0%    { background-color: #ff4780; }
-12%   { background-color: #ff4780; }
-13%   { background-color: #ff7b33; }
-24%   { background-color: #ff7b33; }
-25%   { background-color: #ffbe2f; }
-37%   { background-color: #ffbe2f; }
-38%   { background-color: #23a267; }
-49%   { background-color: #23a267; }
-50%   { background-color: #ff98e3; }
-62%   { background-color: #ff98e3; }
-63%   { background-color: #ff736b; }
-74%   { background-color: #ff736b; }
-75%   { background-color: #ffb846; }
-87%   { background-color: #ffb846; }
-88%   { background-color: #8185ff; }
-99%   { background-color: #8185ff; }
-100%  { background-color: #ff4780; }
-}
-
-@-moz-keyframes flash {
-0%    { background-color: #ff4780; }
-12%   { background-color: #ff4780; }
-13%   { background-color: #ff7b33; }
-24%   { background-color: #ff7b33; }
-25%   { background-color: #ffbe2f; }
-37%   { background-color: #ffbe2f; }
-38%   { background-color: #23a267; }
-49%   { background-color: #23a267; }
-50%   { background-color: #ff98e3; }
-62%   { background-color: #ff98e3; }
-63%   { background-color: #ff736b; }
-74%   { background-color: #ff736b; }
-75%   { background-color: #ffb846; }
-87%   { background-color: #ffb846; }
-88%   { background-color: #8185ff; }
-99%   { background-color: #8185ff; }
-100%  { background-color: #ff4780; }
-}
-
-@-ms-keyframes flash {
-0%    { background-color: #ff4780; }
-12%   { background-color: #ff4780; }
-13%   { background-color: #ff7b33; }
-24%   { background-color: #ff7b33; }
-25%   { background-color: #ffbe2f; }
-37%   { background-color: #ffbe2f; }
-38%   { background-color: #23a267; }
-49%   { background-color: #23a267; }
-50%   { background-color: #ff98e3; }
-62%   { background-color: #ff98e3; }
-63%   { background-color: #ff736b; }
-74%   { background-color: #ff736b; }
-75%   { background-color: #ffb846; }
-87%   { background-color: #ffb846; }
-88%   { background-color: #8185ff; }
-99%   { background-color: #8185ff; }
-100%  { background-color: #ff4780; }
-}*/
-
-
-/*.awesome {*/
-
-      /*-webkit-animation:colorchange 12s infinite;
-
-
-    }
-
-    @-webkit-keyframes colorchange {
-
-      0%    { color: #23a267; }
-      12%   { color: #23a267; }
-      13%   { color: white; }
-      24%   { color: white; }
-      25%   { color: #8185ff; }
-      37%   { color: #8185ff; }
-      38%   { color: #ffbe2f; }
-      49%   { color: #ffbe2f; }
-      50%   { color: #000; }
-      62%   { color: #000; }
-      63%   { color: white; }
-      74%   { color: white; }
-      75%   { color: #ff7b33; }
-      87%   { color: #ff7b33; }
-      88%   { color: #ff98e3; }
-      99%   { color: #ff98e3; }
-      100%  { color: #23a267; }
-
-    }*/
-
-
-/*#ff4780#23a267
-#ff7b33 white
-#ffbe2f#8185ff
-#23a267#ffbe2f
-#ff98e3 black
-#ff736b white
-#ffb846#ff7b33
-#8185ff#ff98e3
-#ff4780*/
-
-/*#ff7b33
-#ffbe2f
-#8185ff
-#ffb846
-#ff98e3
-#ff736b
-#ff4780*/
-
-/*0%    { color: #ff4780; }
-12%   { color: #ff4780; }
-13%   { color: #ff7b33; }
-24%   { color: #ff7b33; }
-25%   { color: #ffbe2f; }
-37%   { color: #ffbe2f; }
-38%   { color: #23a267; }
-49%   { color: #23a267; }
-50%   { color: #ff98e3; }
-62%   { color: #ff98e3; }
-63%   { color: #ff736b; }
-74%   { color: #ff736b; }
-75%   { color: #ffb846; }
-87%   { color: #ffb846; }
-88%   { color: #8185ff; }
-99%   { color: #8185ff; }
-100%  { color: #ff4780; }*/
-
-
 
 nav.navbar.navbar-default.navbar-fixed-top {
   background: none;
@@ -453,42 +317,6 @@ nav.navbar.navbar-default.navbar-fixed-top {
     background-color: #272727 !important;
     font-weight: bold;
 }
-
-/****** div 1. text effect *******/
-/*.flash h1.frame {
-	animation: none;
-	color: transparent;
-	text-shadow: 0px 0px 1px #000;
-}
-.flash h1.frame span {
-	animation: blurFadeIn 3s ease-in 0.5s backwards;
-	color: transparent;
-	text-shadow: 0px 0px 1px #000;
-}
-.flash h1.frame span:nth-child(2) {
-	animation-delay: 1.5s;
-}
-.flash h1.frame span:nth-child(3) {
-	animation-delay: 2s;
-}
-
-@keyframes blurFadeIn{
-	0%{
-		opacity: 0;
-		text-shadow: 0px 0px 40px #000;
-		transform: scale(1.3);
-	}
-	50%{
-		opacity: 0.5;
-		text-shadow: 0px 0px 10px #000;
-		transform: scale(1.1);
-	}
-	100%{
-		opacity: 1;
-		text-shadow: 0px 0px 1px #000;
-		transform: scale(1);
-	}
-}*/
 
 .polaroid {
   width: 316px;
