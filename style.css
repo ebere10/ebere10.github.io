@@ -219,15 +219,11 @@ height: 100vh;
 }
 
 
-
-
-
-
-
-
 .bg-2 {
-background-color: #ff4780;
-color: #ffffff;
+background-color: #fff;
+/*background-color: #ff4780;*/
+color: #000;
+font-weight: bold;
 /*height: 710px;*/
 height: 100vh;
 }
@@ -263,7 +259,9 @@ height: 570px;
 }
 
 .bg2text {
-  margin: 100px 0;
+  margin: 40px 0;
+  font-size: 100px;
+  font-weight: bold;
 }
 
 .bout-me {
@@ -271,6 +269,10 @@ height: 570px;
   font-size: 20px;
   margin-left: 60px;
   padding-left: 80px;
+}
+
+.me-stuff {
+  font-size: 40px;
 }
 
 .pic {
