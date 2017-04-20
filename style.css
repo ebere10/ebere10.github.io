@@ -32,10 +32,9 @@ height: 100vh;
   /*color: #e74c3c;*/
 }
 .text p {
-  /*height: 50px;*/
   height: 100px;
   float: left;
-  margin-right: 0.3em;
+  margin-right: 0.25em;
   padding-left: 20px;
       /*margin-top: 39px;*/
 }
@@ -220,7 +219,7 @@ height: 100vh;
 
 
 .bg-2 {
-background-color: #fff;
+background-color: #3745b5;
 /*background-color: #ff4780;*/
 color: #000;
 font-weight: bold;
