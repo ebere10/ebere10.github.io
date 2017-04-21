@@ -3,7 +3,8 @@ body {
 }
 
 .bg-1 {
-  background-color: #F0F66E;
+  background-color: #Fff000;
+  /*background-color: #F0F66E;*/
   color: #ff4780;
   width: 100%;
   height: 100vh;
@@ -241,6 +242,7 @@ body {
   margin: 40px 0;
   font-size: 80px;
   font-weight: bold;
+  text-align: right;
 }
 
 .bout-me {
@@ -263,11 +265,18 @@ body {
 
 .bg4 {
   margin-top: 150px;
-  font-size: 40px;
+  font-size: 120px;
+  font-family: 'Raleway', sans-serif;
 }
 
 .bg4text {
-  font-size: 25px;
+  font-size: 45px;
+  font-family: 'Raleway', sans-serif;
+  padding-top: 70px;
+}
+
+.first, .second, .third, .fourth {
+  padding: 0 13px;
 }
 
 footer {
@@ -295,8 +304,9 @@ nav.navbar.navbar-default.navbar-fixed-top {
 }
 
 .movepic {
-/*left: 50px;*/
+/*left: -50px;*/
 /*text-align: center;*/
+padding-left: 175px;
 }
 
 .polaroid {
