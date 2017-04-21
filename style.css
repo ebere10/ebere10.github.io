@@ -278,21 +278,10 @@ body {
     /*color: white;*/
 }
 
-a {
+.link1, .link2, .link3{
   padding: 0 13px;
-  /*text-decoration: none;*/
-    color: white;
-}
-
-a:link {
-    color: white;
-  /*text-decoration: none;*/
-
-}
-a:link {
-    /*color: white;*/
   text-decoration: none;
-
+    color: white;
 }
 
 footer {
@@ -303,7 +292,6 @@ footer {
 
 nav.navbar.navbar-default.navbar-fixed-top {
   background: none;
-  /*background: #F0F66E;*/
   border: none;
 }
 
@@ -320,8 +308,6 @@ nav.navbar.navbar-default.navbar-fixed-top {
 }
 
 .movepic {
-/*left: -50px;*/
-/*text-align: center;*/
 padding-left: 175px;
 }
 
@@ -352,9 +338,4 @@ padding-left: 175px;
   33%  {background-image: url("images/me2.jpg");}
   66%  {background-image: url("images/me.jpg");}
   100% {background-image: url("images/me2.jpg");}
-}
-
-a:link .white {
-  color: white;
-text-decoration: none;
 }
