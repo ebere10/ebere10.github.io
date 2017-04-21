@@ -267,16 +267,32 @@ body {
   margin-top: 150px;
   font-size: 120px;
   font-family: 'Raleway', sans-serif;
+    color: white;
+  text-decoration: none;
 }
 
 .bg4text {
   font-size: 45px;
   font-family: 'Raleway', sans-serif;
   padding-top: 70px;
+    /*color: white;*/
 }
 
-.first, .second, .third, .fourth {
+a {
   padding: 0 13px;
+  /*text-decoration: none;*/
+    color: white;
+}
+
+a:link {
+    color: white;
+  /*text-decoration: none;*/
+
+}
+a:link {
+    /*color: white;*/
+  text-decoration: none;
+
 }
 
 footer {
@@ -336,4 +352,9 @@ padding-left: 175px;
   33%  {background-image: url("images/me2.jpg");}
   66%  {background-image: url("images/me.jpg");}
   100% {background-image: url("images/me2.jpg");}
+}
+
+a:link .white {
+  color: white;
+text-decoration: none;
 }
