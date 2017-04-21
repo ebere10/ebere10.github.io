@@ -275,13 +275,17 @@ body {
   font-size: 45px;
   font-family: 'Raleway', sans-serif;
   padding-top: 70px;
-    /*color: white;*/
 }
 
 .link1, .link2, .link3{
   padding: 0 13px;
   text-decoration: none;
-    color: white;
+  color: white;
+}
+
+.link1:hover, .link2:hover, .link3:hover{
+  text-decoration: none;
+  color: yellow;
 }
 
 footer {
