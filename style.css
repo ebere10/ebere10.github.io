@@ -20,6 +20,7 @@ body {
 
 /*code for scrolling text*/
 .text {
+  /*font:normal 100px 'Raleway', sans-serif;*/
   font: normal 100px Montserrat, sans-serif;
   color: #272727;
 }
@@ -208,10 +209,13 @@ body {
 
 
 .bg-2 {
-  background-color: #3745b5;
+  /*background-color: #3745b5;*/
+  background-color: #fff;
   color: #000;
   font-weight: bold;
   height: 100vh;
+  font-family: 'Raleway', sans-serif;
+  border: dotted 15px yellow;
 }
 
 .bg-3 {
@@ -283,9 +287,19 @@ body {
   color: white;
 }
 
-.link1:hover, .link2:hover, .link3:hover{
+.link1:hover{
   text-decoration: none;
   color: yellow;
+  /*font-weight:bolder;*/
+}
+.link2:hover{
+  text-decoration: none;
+  color: green;
+
+}
+.link3:hover{
+  text-decoration: none;
+  color: blue;
 }
 
 footer {
