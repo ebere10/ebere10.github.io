@@ -503,3 +503,13 @@ div.col-sm-6 {
 h3  {
   color: black
 }
+
+/*delete test*/
+a[ id= "about" ]:target ~ #page div.test1 {
+    -webkit-transform: translateY( 0px);
+    transform: translateY( 0px );
+}
+
+html {
+      scroll-behavior: smooth;
+    }
