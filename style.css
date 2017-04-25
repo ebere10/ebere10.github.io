@@ -373,7 +373,7 @@ padding-left: 175px;
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color:rgba(47, 241, 44, 0.75);
+  background-color:rgba(241, 139, 44, 0.75);
 }
 
 .pone:hover .overlay1 {
@@ -402,7 +402,7 @@ padding-left: 175px;
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color:rgba(47, 241, 44, 0.75);
+  background-color:rgba(139, 44, 241, 0.75);
 }
 
 .ptwo:hover .overlay2 {
