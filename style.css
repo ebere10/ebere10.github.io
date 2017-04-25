@@ -219,10 +219,11 @@ body {
 }
 
 .bg-3 {
-  background-image: url("images/grid.png");
+  /*background-image: url("images/grid.png");
   background-size: 20px;
-  background-repeat: repeat;
-  color: #ffffff;
+  background-repeat: repeat;*/
+  background-color: grey;
+  color: #000;
   height: 1000px;
 }
 
