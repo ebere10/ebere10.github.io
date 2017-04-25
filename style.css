@@ -230,10 +230,6 @@ div.container-fluid.bg-3 {
   padding: 0;
 }
 
-img p3 {
-  height: 20%;
-}
-
 .bg-4 {
   background-color: #ff736b;
   color: #ffffff;
@@ -281,8 +277,6 @@ img p3 {
   font-family: 'Raleway', sans-serif;
     color: white;
   text-decoration: none;
-  /*get rid of later*/
-  text-indent: -690px;
 }
 
 .bg4text {
@@ -399,10 +393,6 @@ padding-left: 175px;
 
 .pfour:hover .overlay4 {
   opacity: 1;
-}
-.pfour {
-  top: -350px;
-  /*margin-top: -150px;*/
 }
 
 .o-text {
