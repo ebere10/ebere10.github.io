@@ -245,7 +245,7 @@ body {
 }
 
 div.container-fluid.bg-3 {
-  padding: 0;
+  /*padding: 0;*/
 }
 
 .bg-4 {
@@ -405,7 +405,7 @@ padding-left: 175px;
 
 .o-text {
   white-space: nowrap;
-  color: black;
+  color: white;
   font-size: 20px;
   position: absolute;
   overflow: hidden;
@@ -416,7 +416,7 @@ padding-left: 175px;
 }
 
 div.col-sm-6 {
-  padding: 0;
+  padding: 15px;
 }
 
 h3  {
@@ -429,5 +429,5 @@ h3.bg2text {
 }
 
 p.me-stuff {
-  
+  top: 100px;
 }
