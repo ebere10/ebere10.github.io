@@ -312,6 +312,8 @@ footer {
   height: 15vh;
   text-align: center;
   padding: 40px 0;
+  background-color: #F1216A;
+  color: white;
 }
 
 nav.navbar.navbar-default.navbar-fixed-top {
