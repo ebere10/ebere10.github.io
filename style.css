@@ -222,7 +222,7 @@ body {
   /*background-image: url("images/grid.png");
   background-size: 20px;
   background-repeat: repeat;*/
-  background-color: grey;
+  background-color: #4cc0c2;
   color: #000;
   height: 1000px;
 }
@@ -232,7 +232,8 @@ div.container-fluid.bg-3 {
 }
 
 .bg-4 {
-  background-color: #ff736b;
+  background-color: #f54784;
+  /*background-color: #ff736b;*/
   color: #ffffff;
   height: 85vh;
 }
@@ -374,7 +375,8 @@ padding-left: 175px;
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color:rgba(241, 139, 44, 0.75);
+  background-color:rgba(76, 192, 194, 0.75);
+  /*background-color:rgba(241, 139, 44, 0.75);*/
 }
 
 .pone:hover .overlay1 {
@@ -501,15 +503,15 @@ div.col-sm-6 {
 }
 
 h3  {
-  color: black
+  color: black;
 }
 
 /*delete test*/
-a[ id= "about" ]:target ~ #page div.test1 {
+/*a[ id= "about" ]:target ~ #page div.test1 {
     -webkit-transform: translateY( 0px);
     transform: translateY( 0px );
-}
+}*/
 
-html {
+/*html {
       scroll-behavior: smooth;
-    }
+    }*/
