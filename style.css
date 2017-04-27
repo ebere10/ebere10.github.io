@@ -455,10 +455,13 @@ h3.portfolio {
 }
  .link-a, .link-b, .link-c {
    font-weight: bold;
-   color: white
+   color: white;
+   padding: 0 10px;
  }
 
  .link-a:hover, .link-b:hover, .link-c:hover {
    font-weight: bold;
-   color: white
+   color: white;
+   text-decoration: line-through;
+
  }
