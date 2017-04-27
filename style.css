@@ -312,7 +312,7 @@ div.container-fluid.bg-3 {
 
 .link1:hover{
   text-decoration: none;
-  color: yellow;
+  color: white;
   /*font-weight:bolder;*/
 }
 .link2:hover{
@@ -430,4 +430,7 @@ h3.bg2text {
 
 p.me-stuff {
   top: 100px;
+}
+.link1 {
+  font-weight: bolder;
 }
