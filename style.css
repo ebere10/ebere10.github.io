@@ -318,21 +318,6 @@ top: -97px;
   color: white;
 }
 
-.link1:hover{
-  text-decoration: none;
-  color: white;
-  /*font-weight:bolder;*/
-}
-.link2:hover{
-  text-decoration: none;
-  color: green;
-
-}
-.link3:hover{
-  text-decoration: none;
-  color: blue;
-}
-
 footer {
   height: 15vh;
   text-align: center;
