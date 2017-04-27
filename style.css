@@ -268,10 +268,13 @@ div.container-fluid.bg-3 {
 }
 
 .bg2text {
-  margin: 40px 0;
-  font-size: 80px;
-  font-weight: bold;
-  text-align: right;
+font-weight: bold;
+font-size: 155px;
+color: rgba(33, 142, 138, 0.21);
+z-index: 1;
+position: absolute;
+right: 37px;
+top: -97px;
 }
 
 .bout-me {
@@ -282,6 +285,7 @@ div.container-fluid.bg-3 {
 }
 
 .me-stuff {
+  margin-top: 85px;
   font-size: 40px;
 }
 
@@ -445,5 +449,5 @@ h3.portfolio {
   text-align: left;
   z-index: 1;
   position: absolute;
-  top: -101px;
+  top: -102px;
 }
