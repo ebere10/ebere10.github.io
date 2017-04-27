@@ -450,3 +450,12 @@ h3.portfolio {
    text-decoration: line-through;
 
  }
+
+ .link-d {
+color: #333
+ }
+
+ .link-d:hover {
+color: #333;
+/*text-decoration:none;*/
+ }
