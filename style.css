@@ -270,7 +270,7 @@ div.container-fluid.bg-3 {
 .bg2text {
 font-weight: bold;
 font-size: 155px;
-color: rgba(33, 142, 138, 0.21);
+color: rgba(237, 252, 4, 0.48);
 z-index: 1;
 position: absolute;
 right: 37px;
@@ -287,6 +287,8 @@ top: -97px;
 .me-stuff {
   margin-top: 85px;
   font-size: 40px;
+  text-align: left;
+  margin-left: 50px;
 }
 
 .pic {
@@ -451,3 +453,12 @@ h3.portfolio {
   position: absolute;
   top: -102px;
 }
+ .link-a, .link-b, .link-c {
+   font-weight: bold;
+   color: white
+ }
+
+ .link-a:hover, .link-b:hover, .link-c:hover {
+   font-weight: bold;
+   color: white
+ }
