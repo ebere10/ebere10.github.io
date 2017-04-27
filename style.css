@@ -241,7 +241,7 @@ body {
   background-size: 20px;
   background-repeat: repeat;*/
   background-color: #4cc0c2;
-  color: #333;
+  color: #fafafa;
   height: 910px;
   position: relative;
 }
@@ -452,10 +452,10 @@ h3.portfolio {
  }
 
  .link-d {
-color: #333
+color: #fafafa
  }
 
  .link-d:hover {
-color: #333;
+color: #fafafa;
 /*text-decoration:none;*/
  }
