@@ -241,7 +241,7 @@ body {
   background-repeat: repeat;*/
   background-color: #4cc0c2;
   color: #000;
-  height: 1000px;
+  height: 1025px;
 }
 
 div.container-fluid.bg-3 {
@@ -433,4 +433,11 @@ p.me-stuff {
 }
 .link1 {
   font-weight: bolder;
+}
+
+.portfolio {
+  font-size: 125px;
+  color: white;
+  line-height: 100%;
+  margin: 0;
 }
