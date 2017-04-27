@@ -228,7 +228,7 @@ body {
 .bg-2 {
   /*background-color: #3745b5;*/
   background-color: #fff;
-  color: #000;
+  color: #333;
   font-weight: bold;
   height: 100vh;
   font-family: 'Raleway', sans-serif;
@@ -241,8 +241,8 @@ body {
   background-size: 20px;
   background-repeat: repeat;*/
   background-color: #4cc0c2;
-  color: #000;
-  height: 1025px;
+  color: #333;
+  height: 910px;
   position: relative;
 }
 
