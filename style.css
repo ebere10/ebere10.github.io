@@ -233,6 +233,7 @@ body {
   height: 100vh;
   font-family: 'Raleway', sans-serif;
   /*border: dotted 15px yellow;*/
+  position: relative;
 }
 
 .bg-3 {
@@ -242,6 +243,7 @@ body {
   background-color: #4cc0c2;
   color: #000;
   height: 1025px;
+  position: relative;
 }
 
 div.container-fluid.bg-3 {
@@ -435,9 +437,13 @@ p.me-stuff {
   font-weight: bolder;
 }
 
-.portfolio {
-  font-size: 125px;
-  color: white;
+h3.portfolio {
+  font-size: 155px;
+  color: rgba(33, 142, 138, 0.21);
   line-height: 100%;
   margin: 0;
+  text-align: left;
+  z-index: 1;
+  position: absolute;
+  top: -101px;
 }
