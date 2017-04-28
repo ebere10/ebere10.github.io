@@ -331,17 +331,23 @@ nav.navbar.navbar-default.navbar-fixed-top {
   border: none;
 }
 
-
 .navbar li a, .navbar .navbar-brand {
-  color: #272727 !important;
-  font-weight: bold;
+    color: #ff83af !important;
+    /*font-weight: bolder;*/
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
 }
 
 .navbar-nav li a:hover, .navbar-nav li.active a {
   /*color: #272727 !important;*/
   background-color: rgba(255, 255, 255, 0.75) !important;
+  background-color: #ff005f !important;
   /*background-color: #ffffff !important;*/
   font-weight: bold;
+}
+
+a.navbar-brand:hover {
+  background-color: #ff005f !important;
 }
 
 .movepic {
@@ -491,3 +497,12 @@ color: #fafafa
 color: #fafafa;
 /*text-decoration:none;*/
  }
+
+
+
+/*CSS page stuff*/
+
+
+.css-body {
+  background-color: pink
+}
