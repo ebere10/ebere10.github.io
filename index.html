@@ -75,7 +75,7 @@
     </div>
   </div>
 
-<!-- <div class="triangle2"></div> -->
+  <!-- <div class="triangle2"></div> -->
 
   <div id="portfolio" class="container-fluid bg-3">
     <div class="container-fluid bg-3a text-center">
@@ -134,62 +134,62 @@
             </div>
           </div>
         </div>
+      </div>
+      <h1>I also like drawing with CSS, click <a href="css-things.html" class="link-d">here</a> to see some of my work</h1>
     </div>
-    <h1>I also like drawing with CSS, click <a href="css-things.html" class="link-d">here</a> to see some of my work</h1>
   </div>
-</div>
 
-<div id="contact" class="container-fluid bg-4 text-center">
-  <h1 class="bg4">say hello</h1>
-  <h1 class="bg4text">
-    <a href="mailto:eberenw@gmail.com" class="link-a">email</a>
-    <a href="https://www.linkedin.com/in/eberenwoko/" class="link-b">linkedin</a>
-    <a href="https://github.com/ebere10" class="link-c">github</a>
-  </h1>
-</div>
-
-
-<footer>
-  © 2017 · EBERE NWOKO · AWESOME&#9889;
-</footer>
+  <div id="contact" class="container-fluid bg-4 text-center">
+    <h1 class="bg4">say hello</h1>
+    <h1 class="bg4text">
+      <a href="mailto:eberenw@gmail.com" class="link-a">email</a>
+      <a href="https://www.linkedin.com/in/eberenwoko/" class="link-b">linkedin</a>
+      <a href="https://github.com/ebere10" class="link-c">github</a>
+    </h1>
+  </div>
 
 
-<script>
-$(document).ready(function(){
-  // Add smooth scrolling to all links in navbar + footer link
-  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
-    // Make sure this.hash has a value before overriding default behavior
-    if (this.hash !== "") {
-      // Prevent default anchor click behavior
-      event.preventDefault();
+  <footer>
+    © 2017 · EBERE NWOKO · AWESOME&#9889;
+  </footer>
 
-      // Store hash
-      var hash = this.hash;
 
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 900, function(){
+  <script>
+  $(document).ready(function(){
+    // Add smooth scrolling to all links in navbar + footer link
+    $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+      // Make sure this.hash has a value before overriding default behavior
+      if (this.hash !== "") {
+        // Prevent default anchor click behavior
+        event.preventDefault();
 
-        // Add hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
-      });
-    } // End if
-  });
+        // Store hash
+        var hash = this.hash;
 
-  $(window).scroll(function() {
-    $(".slideanim").each(function(){
-      var pos = $(this).offset().top;
+        // Using jQuery's animate() method to add smooth page scroll
+        // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 900, function(){
 
-      var winTop = $(window).scrollTop();
+          // Add hash (#) to URL when done scrolling (default click behavior)
+          window.location.hash = hash;
+        });
+      } // End if
+    });
+
+    $(window).scroll(function() {
+      $(".slideanim").each(function(){
+        var pos = $(this).offset().top;
+
+        var winTop = $(window).scrollTop();
         if (pos < winTop + 600) {
           $(this).addClass("slide");
         }
+      });
     });
-  });
-})
-</script>
+  })
+  </script>
 
 </body>
 </html>
