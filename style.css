@@ -477,5 +477,13 @@ h3.portfolio {
 
 
 .css-body {
-  background-color: pink
+  /*background-color: pink*/
+
+
+background: #DD2476; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(-90deg, #FF512F, #DD2476); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(-90deg, #FF512F, #DD2476); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(-90deg, #FF512F, #DD2476); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(-90deg, #FF512F, #DD2476); /* Standard syntax */
+}
 }
