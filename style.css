@@ -339,7 +339,7 @@ a.navbar-brand:hover {
 }
 
 .movepic {
-  padding-left: 75px;
+  padding: 75px 0 0 75px;
 }
 
 .polaroid {
