@@ -1,0 +1,32 @@
+.css-body {
+  /*background-color: pink*/
+
+
+  background: #DD2476; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(-90deg, #FF512F, #DD2476); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(-90deg, #FF512F, #DD2476); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(-90deg, #FF512F, #DD2476); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(-90deg, #FF512F, #DD2476); /* Standard syntax */
+}
+
+/*.soon {
+margin-left: 425px;
+text-align: center;
+color: rgba(255, 255, 255, 0.29);
+border-radius: 20%;
+border: solid rgba(255, 255, 255, 0.29) 10px;
+width: 35%;
+height: 30%;
+top: 100px;
+font-size: 50px;
+}*/
+
+div.col-sm-4 {
+  padding: 0;
+}
+div.container-fluid {
+  padding: 0;
+}
+
+
+/**/
