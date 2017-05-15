@@ -18,6 +18,10 @@ background: #ff005f;
 clip-path: polygon(0 25%, 0 0, 100% 25%));
 }*/
 
+.bg1width {
+  width: 100%;
+}
+
 .bg-1 {
   background-color: #ff005f;
   color: #ff4780;
