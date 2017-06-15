@@ -16,6 +16,7 @@ window.onload = function(){
   var fr3Txt2;
   var fr3Txt3;
   var fr3Txt4;
+  var blur;
 
   // store a reference to the canvas which we will draw on.
   var stage = new createjs.Stage('stage');
@@ -51,7 +52,8 @@ window.onload = function(){
     {id: 'frame3text1', src: 'images1/fr3txt1.png'},
     {id: 'frame3text2', src: 'images1/fr3txt2.png'},
     {id: 'frame3text3', src: 'images1/fr3txt3.png'},
-    {id: 'frame3text4', src: 'images1/fr3txt4.png'}
+    {id: 'frame3text4', src: 'images1/fr3txt4.png'},
+    {id: 'blur', src: 'images1/blur5.png'}
   ]);
 
   function handleAllImagesLoaded() {
@@ -221,11 +223,22 @@ window.onload = function(){
     .wait(3500)
     .to({alpha: 1},1000)
 
-// add sheen to button - could be done using a filter possibly...
+//sheen
+    blur = new createjs.Bitmap( loader.getResult( 'blur' ));
+    blur.x = 130;
+    blur.y = 193;
+    blur.alpha = 0;
+    stage.addChild(blur);
+    createjs.Tween.get(blur)
+    .wait(4000)
+    .to({alpha: 1},150)
+    .to({x: 240}, 400)
+    .to({alpha: 0.65}, 50)
+    .to({x: 260},50)
+    .to({alpha: 0});
 
 
 
   }
-  // setTimeout(10000, console.log('finito'));
 
 };
