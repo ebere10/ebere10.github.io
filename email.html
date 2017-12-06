@@ -1,10 +1,143 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Emails</title>
-  </head>
-  <body>
+<head>
+  <meta charset="utf-8">
+  <title>Emails</title>
+  <style>
+  @import url(https://fonts.googleapis.com/css?family=Raleway:400,,800,900);
 
-  </body>
+  body{
+    font-family: 'Raleway', sans-serif;
+
+    background-color: #f4f4f4;
+  }
+  .emails {
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+
+    padding: 10px 80px;
+  }
+  .padbottom {
+    padding-bottom: 40px;
+  }
+
+
+
+  .container {
+    position: relative;
+    width: 100%;
+  }
+
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
+
+  .container:hover .image {
+    opacity: 0.3;
+  }
+
+  .container:hover .middle {
+    opacity: 1;
+  }
+
+  .text {
+    background-color: #c516a5;
+    color: white;
+    font-size: 26px;
+    padding: 16px 32px;
+  }
+
+  .text:hover {
+    background-color: #9c1083;
+  }
+
+a.link1{
+  color: white;
+  text-decoration: none;
+  font-size: 57px:
+}
+
+.back {
+  color: #c516a5;
+  padding-left: 35px;
+  font-size: 30px;
+}
+h3  {
+  background-color: #efefef;
+}
+  </style>
+</head>
+
+
+<body>
+  <h3><a href="index.html" class="back">&lt;&lt; back</a></h3>
+
+<div class="emails">
+
+  <div class="container">
+    <img src="images/bibi.jpeg" alt="Avatar" class="image padbottom" style="width:100%">
+    <div class="middle">
+      <div class="text"><a href="emails/bibi.html" target="_blank" class="link1">view live</a></div>
+      <div class="text"><a href="https://github.com/ebere10/newsletters/blob/master/gallery/bibi_solis.html" target="_blank" class="link1">view code</a></div>
+    </div>
+  </div>
+
+  <div class="container">
+    <img src="images/todd.jpeg" alt="Avatar" class="image padbottom" style="width:100%">
+    <div class="middle">
+      <div class="text"><a href="emails/todd.html"  target="_blank" class="link1">view live</a></div>
+      <div class="text"><a href="https://github.com/ebere10/newsletters/blob/master/gallery/todd_sinter.html" target="_blank" class="link1">view code</a></div>
+    </div>
+  </div>
+
+  <div class="container">
+    <img src="images/minnie.jpeg" alt="Avatar" class="image padbottom" style="width:100%">
+    <div class="middle">
+      <div class="text"><a href="emails/minnie.html" target="_blank" class="link1">view live</a></div>
+      <div class="text"><a href="https://github.com/ebere10/newsletters/blob/master/gallery/minnies.html" target="_blank" class="link1">view code</a></div>
+    </div>
+  </div>
+
+  <div class="container">
+    <img src="images/sophie.jpeg" alt="Avatar" class="image padbottom" style="width:100%">
+    <div class="middle">
+      <div class="text"><a href="emails/sophie.html" target="_blank" class="link1">view live</a></div>
+      <div class="text"><a href="https://github.com/ebere10/newsletters/blob/master/gallery/sophie_cooks.html" target="_blank" class="link1">view code</a></div>
+    </div>
+  </div>
+
+
+  <div class="container">
+    <img src="images/maven.jpeg" alt="Avatar" class="image padbottom" style="width:100%">
+    <div class="middle">
+      <div class="text"><a href="emails/maven.html" target="_blank" class="link1">view live</a></div>
+      <div class="text"><a href="https://github.com/ebere10/newsletters/blob/master/gallery/maven.html" target="_blank" class="link1">view code</a></div>
+    </div>
+  </div>
+
+</div>
+
+<h3><a href="index.html" class="back">&lt;&lt; back</a></h3>
+
+</body>
 </html>
