@@ -1,12 +1,12 @@
 .css-body {
-  /*background-color: pink*/
+  background-color: #ebece7;
 
 
-  background: #DD2476; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(-90deg, #FF512F, #DD2476); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(-90deg, #FF512F, #DD2476); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(-90deg, #FF512F, #DD2476); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(-90deg, #FF512F, #DD2476); /* Standard syntax */
+  /*background: #DD2476;
+  background: -webkit-linear-gradient(-90deg, #FF512F, #DD2476);
+  background: -o-linear-gradient(-90deg, #FF512F, #DD2476);
+  background: -moz-linear-gradient(-90deg, #FF512F, #DD2476);
+  background: linear-gradient(-90deg, #FF512F, #DD2476);*/
 }
 
 /*.soon {
@@ -25,14 +25,31 @@ div.col-sm-4 {
   padding: 0;
 }
 div.container-fluid {
-  padding: 0;
+  padding: 0 30px;
 }
 
 
 /**/
 
 .back {
-  color: inherit;
+  color: #609062;
   padding-left: 35px;
   font-size: 30px;
+  margin: 0 0 15px;
+}
+
+.title {
+  font-size: 110px;
+  color: #d9dcca;
+  padding-left: 80px;
+  margin: 0;
+  padding-left: 15px;
+  padding-bottom: 30px;
+  line-height: 60px;
+}
+
+h3  {
+  background-color: #dadccf;
+  margin-top: 0;
+  padding: 15px 0;
 }

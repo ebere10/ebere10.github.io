@@ -229,7 +229,7 @@ footer {
 }
 /*webapps.html*/
 /*project overlays*/
-.overlay1 {
+/*.overlay1 {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -270,3 +270,28 @@ h3  {
 h3.bg2text {
   margin: 0;
 }
+
+.link1 {
+  color: white;
+  text-decoration: none;
+}
+p a.link1 {
+  color: white;
+  /*background-color: #4cc0c2;*/
+  /*text-decoration: none;
+}
+p a.link1:hover {*/
+  /*color: white;*/
+  /*background-color: #105b5d;
+  padding: 10px;*/
+  /*text-decoration: none;*/
+/*}
+div.container-fluid.bg-3a.text-center{
+  padding: 0 15px;
+}
+
+.back {
+  color: inherit;
+  padding-left: 35px;
+  font-size: 30px;
+}*/

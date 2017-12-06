@@ -1,0 +1,80 @@
+/*body {
+  background-color: red;
+}*/
+
+ .title {
+   font-size: 65px;
+   color: #6fa9a9;
+   padding-left: 80px;
+ }
+
+.overlay1 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:rgba(76, 192, 194, 0.75);
+}
+
+.pone:hover .overlay1 {
+  opacity: 1;
+}
+
+.o-text {
+  white-space: nowrap;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+div.col-sm-6 {
+  padding: 15px;
+}
+
+h3  {
+  color: black;
+}
+
+
+h3.bg2text {
+  margin: 0;
+}
+
+.link1 {
+  color: white;
+  text-decoration: none;
+}
+p a.link1 {
+  color: white;
+  /*background-color: #4cc0c2;*/
+  text-decoration: none;
+}
+p a.link1:hover {
+  /*color: white;*/
+  background-color: #105b5d;
+  padding: 10px;
+  /*text-decoration: none;*/
+}
+div.container-fluid.bg-3a.text-center{
+  padding: 0 85px 40px;
+}
+
+.back {
+  color: #6fa9a9;
+  padding-left: 35px;
+  font-size: 30px;
+}
+
+div.container-fluid.bg-3 {
+  background-color: #8dc3c3;
+}
