@@ -1,0 +1,21 @@
+body {
+  background-color: #FF005F;
+  /*font:normal 'Raleway', sans-serif;*/
+
+}
+
+.name {
+  /*font-size: 55px;*/
+  font:normal 170px 'Raleway', sans-serif;
+  color: #D1004E;
+}
+
+.name1 {
+  color: #F76587;
+}
+
+h3  {
+  /*font-size: 55px;*/
+  font:normal 55px 'Raleway', sans-serif;
+  color: #Ffffff;
+}

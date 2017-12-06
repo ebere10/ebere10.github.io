@@ -1,18 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <title>Ebere Nwoko</title>
   <meta charset="utf-8">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
-  <title>Ebere Nwoko</title>
+  <script src="trial.js" charset="utf-8"></script>
 </head>
 <body>
 
+  <!-- Navbar -->
   <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
       <div class="navbar-header">
@@ -21,132 +22,54 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#myPage">Ebere</a>
+        <a class="navbar-brand" href="#top">Ebere</a>
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
-          <li class="col"><a href="#about">ABOUT</a></li>
-          <li class="col"><a href="#portfolio">PORTFOLIO</a></li>
-          <li class="col"><a href="#contact">CONTACT</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#portfolio">PORTFOLIO</a></li>
+          <li><a href="#contact">CONTACT</a></li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <div id="myPage" class="text bg-1">
+  <!-- First Container -->
+  <div id="top" class="container-fluid text-center bg-1">
     <div class="bg1width">
-
-      <h4 class="big">Hi, I'm Ebere &amp;</h4><br>
-          <b><p>I'm a</p></b>
-
-    <!-- <h1 class="heading">Hi, I'm Ebere &amp;</h1>
-    <h1 class="heading2">I'm a</h1> -->
-    <b>
-      <div class="inner-text">
-        developer<br/>
-        designer<br/>
-        biscuit dunker<br/>
-        ninja<br/>
-        chocolate lover<br/>
-        creative<br/>
-        dressmaker<br/>
-        unicorn<br/>
-        doodler<br/>
-        lover not a fighter<br/>
-        dreamer<br/>
-        dancer<br/>
-        secret lemonade drinker<br/>
-        believer<br/>
-        little teapot<br/>
-        developer
-      </div>
-    </b>
-  </div>
-</div>
-  <div  id="about" class="triangle1"></div>
-
-  <div class="container-fluid bg-2 text-center">
-  <!-- <div id="about" class="container-fluid bg-2 text-center"> -->
-    <h3 class="bg2text">About</h3>
-    <div class="container-fluid bg-2a">
-      <div class="col-sm-6">
-        <p class="me-stuff">
-          A London based front end developer who loves colour, making things with my hands, and eating chocolate. <br>
-          When not coding, you can probably find me on the dancefloor, portrait sketching or sewing up a storm.
-        </p>
-      </div>
-      <div class="col-sm-6">
-        <div class="movepic">
-          <div class="polaroid"></div>
-        </div>
-      </div>
+      <div class="title">EBERE  NWOKO</div>
+      <div class="subtitle">DEVELOPER + DESIGNER + CREATIVE + DREAMER + BELIEVER + DOODLER</div>
     </div>
   </div>
 
-  <!-- <div class="triangle2"></div> -->
+  <!-- Second Container -->
+  <div id="about" class="container-fluid bg-2 text-center">
+    <h1 class="bg2">about</h1>
+    <div>
+      <img src="images/me6.jpg" class="img-circle person" alt="photo of Ebere with orange bag on head">
+    </div>
+    <p><span class="emphasising">Front End Enthusiast</span> &#9733; Londoner &#9733; <span class="emphasising">Loves Colour</span></p>
+    <p>Makes Stuff <span class="emphasising">&#9733; Music Lover &#9733;</span> Chocolate Eater</p>
+    <p><span class="emphasising">Throws Shapes</span> &#9733; Portrait Painter &#9733; <span class="emphasising">Crinus Muto</span></p>
+  </div>
 
-  <div id="portfolio" class="container-fluid bg-3">
-    <div class="container-fluid bg-3a text-center">
-      <h3 class="portfolio">Work</h3><br>
-      <div class="row">
-        <div class="col-sm-6 pone">
-          <!-- <p>Project 1</p> -->
-          <img src="images/p1.png" class="img-responsive" style="width:100%" alt="Image">
-          <div class="overlay1">
-            <div class="o-text">
-              <h1>Stay Quirky</h1>
-              <p>[Mongo | Express | EJS | Node.js]</p>
-              <p>An app built using the Google Maps API <br>Find quirky hotels around the world. </p>
-              <p><a href="https://quirky-hotels.herokuapp.com/" class="link1">website</a></p>
-              <p><a href="https://github.com/ebere10/WDI_PROJECT_2" class="link1">github</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 pone">
-          <!-- <p>Project 2</p> -->
-          <img src="images/p2.png" class="img-responsive" style="width:100%" alt="Image">
-          <div class="overlay1">
-            <div class="o-text">
-              <h1>Play That Tune!</h1>
-              <p>[HTML | CSS | JavaScript]</p>
-              <p>A musical memory game.</p>
-              <p><a href="https://limitless-savannah-62598.herokuapp.com/" class="link1">website</a></p>
-              <p><a href="https://github.com/ebere10/WDI_PROJECT_1" class="link1">github</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 pone">
-          <!-- <p>Project 3</p> -->
-          <img src="images/p4.png" class="img-responsive" style="width:100%" alt="Image">
-          <div class="overlay1">
-            <div class="o-text">
-              <h1>Mind-Pops</h1>
-              <p> [Ruby on Rails | Express | AngularJS | Node.js | Bootstrap]</p>
-              <p>Mind Pops is an app that allows users <br> to log and share their random thoughts.</p>
-              <p><a href="https://post-something-client.herokuapp.com/" class="link1">website</a></p>
-              <p><a href="https://github.com/ebere10/WDI_PROJECT_4_CLIENT" class="link1">github(client)</a></p>
-              <p><a href="https://github.com/ebere10/WDI_PROJECT_4_API" class="link1">github(API)</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 pone">
-          <!-- <p>Project 4</p> -->
-          <img src="images/p3.png" class="img-responsive p3" style="width:100%" alt="Image">
-          <div class="overlay1">
-            <div class="o-text">
-              <h1>Input</h1>
-              <p>[Mongo | Express | AngularJS | Node.js | Bootstrap]</p>
-              <p>A group project. The app allows users <br> to leave anonymous feedback for their employers.</p>
-              <p><a href="https://inputbltdcx.herokuapp.com/" class="link1">website</a></p>
-              <p><a href="https://github.com/ebere10/WDI-PROJECT-3" class="link1">github</a></p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <h1><a href="css-things.html" class="link-d">I also like drawing with CSS, click here to see some of my work</a></h1>
+  <!-- Third Container -->
+  <div id="portfolio" class="container-fluid bg-3 text-center">
+    <h1 class="margin bg3">portfolio</h1><br>
+    <div class="row work-links">
+      <a href="email.html"><div class="col-sm-4 email">
+        <p class="work-links">email</p>
+      </div></a>
+      <a href="css-things.html"><div class="col-sm-4 css">
+        <p class="work-links">css</p>
+      </div></a>
+      <a href="webapps.html"><div class="col-sm-4 web">
+        <p class="work-links">apps</p>
+      </div></a>
     </div>
   </div>
 
+  <!-- Fourth Container -->
   <div id="contact" class="container-fluid bg-4 text-center">
     <h1 class="bg4">say hello</h1>
     <h1 class="bg4text">
@@ -156,8 +79,8 @@
     </h1>
   </div>
 
-
-  <footer>
+  <!-- Footer -->
+  <footer class="bg-5 text-center">
     © 2017 · EBERE NWOKO · AWESOME&#9889;
   </footer>
 
@@ -165,7 +88,7 @@
   <script>
   $(document).ready(function(){
     // Add smooth scrolling to all links in navbar + footer link
-    $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+    $(".navbar a, footer a[href='#top']").on('click', function(event) {
       // Make sure this.hash has a value before overriding default behavior
       if (this.hash !== "") {
         // Prevent default anchor click behavior
