@@ -30,3 +30,9 @@ div.container-fluid {
 
 
 /**/
+
+.back {
+  color: inherit;
+  padding-left: 35px;
+  font-size: 30px;
+}
