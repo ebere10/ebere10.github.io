@@ -296,3 +296,143 @@ div.container-fluid.bg-3a.text-center{
   padding-left: 35px;
   font-size: 30px;
 }*/
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1100px) {
+  .title {
+    width: 80%; } }
+@media only screen and (max-width: 812px) {
+  .title h1 {
+    font-size: 5em; } }
+@media only screen and (max-width: 725px) {
+  .title {
+    margin-left: 1em; }
+    .title h1 {
+      font-size: 4.5em; }
+
+  #back {
+    left: 25px;
+    top: 25px;
+    width: 60px; }
+  }
+
+@media only screen and (max-width: 650px) {
+  .tile {
+    margin-left: 1em; }
+    .title h1 {
+      font-size: 4em; }
+
+  /*#contact h4 {
+    max-width: 95%; } */
+  }
+
+
+  @media only screen and (max-width: 555px) {
+    .bg4 {
+      margin-top: 100px;
+      font-size: 100px;
+    }
+
+    .bg4text {
+      font-size: 35px;
+      font-family: 'Raleway', sans-serif;
+      padding-top: 60px;
+    }
+    .link-a, .link-b, .link-c {
+      font-weight: bold;
+      color: #b1d8c5;
+      padding: 0 10px;
+    }
+
+    }
+
+@media only screen and (max-width: 500px) {
+  .bg4 {
+    margin-top: 100px;
+    font-size: 100px;
+/*     font-family: 'Raleway', sans-serif;
+    color: #3d755b;
+    text-decoration: none; */
+  }
+
+  .bg4text {
+    font-size: 45px;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 60px;
+  }
+  .link-a, .link-b, .link-c {
+    font-weight: bold;
+    color: #b1d8c5;
+    padding: 0 100px;
+  }
+
+  }
+
+
+@media only screen and (max-width: 445px) {
+  .bg4 {
+    margin-top: 60px;
+    font-size: 100px;
+  }
+
+  .bg4text {
+    font-size: 50px;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 10px;
+  }
+  .link-a, .link-b, .link-c {
+    font-weight: bold;
+    color: #b1d8c5;
+    padding: 0 100px;
+  }
+
+    }
+
+@media only screen and (max-width: 425px) {
+
+ .bg4 {
+    margin-top: 25%;
+    font-size: 85px;
+  }
+
+  .bg4text {
+    font-size: 50px;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 10%;
+  }
+  .link-a, .link-b, .link-c {
+    font-weight: bold;
+    color: #b1d8c5;
+    padding: 0 100px;
+  }
+
+    }
+
+
+@media only screen and (max-width: 320px) {
+
+  .bg4 {
+    margin-top: 25%;
+    font-size: 85px;
+  }
+
+  .bg4text {
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 10%;
+  }
+  .link-a, .link-b, .link-c {
+    font-weight: bold;
+    color: #b1d8c5;
+    padding: 0 60px;
+  }
+
+    }
